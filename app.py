@@ -14,6 +14,7 @@ def main():
         Item("Mouse", "An ergonomic mouse", 20.0, 50),
         Item("Keyboard", "A mechanical keyboard", 100.0, 20)
     ]
+    
     for item in initial_items:
         inventory.add_item(item)
 
