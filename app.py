@@ -9,7 +9,6 @@ def main():
     visitor = Visitor("Visitor")
     current_user = None
 
-    # Añadir algunos elementos al inventario inicialmente (opcional)
     initial_items = [
         Item("Laptop", "A powerful laptop", 1200.0, 10),
         Item("Mouse", "An ergonomic mouse", 20.0, 50),
